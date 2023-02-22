@@ -1,0 +1,20 @@
+
+p {
+    font-style: italic;
+    text-align: justify;
+    color:blue;;
+    width: 400px;
+}
+div, p, span{ font-size: 12pt;}
+h1{
+    color: lightblue;
+}
+div.message{
+    width: 400px;
+    color:yellowgreen
+}
+span{
+    background-color: wheat;
+    font-weight: bold;
+    color: green;
+}

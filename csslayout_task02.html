@@ -16,7 +16,8 @@
         }
 
         ul {
-          max-width: 700px;
+          max-width: 800px;
+          height: 300px;
           list-style:none;
           padding: 0;
           margin: 0;
@@ -28,6 +29,14 @@
           border-radius: .5em;
           color: #fff;
           padding: .5em;
+          flex:1;
+        }
+        div ul{
+          border:1px solid black;
+          padding: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
         }
     </style>
 
@@ -36,13 +45,13 @@
 </head>
 
 <body>
-
+<div>
   <ul>
     <li>I am small</li>
     <li>I have more content than the very small item.</li>
     <li>I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</li>
   </ul>
-
+</div>
 </body>
 
 </html>
